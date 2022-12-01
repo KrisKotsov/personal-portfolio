@@ -1,0 +1,103 @@
+html {
+  background-color: rgb(161, 177, 178);
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h1 {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 100px 0;
+  font-size: 6rem;
+  margin-bottom: 0;
+  border-bottom: 5px solid black;
+}
+
+img {
+
+  height: 300px;
+  width: 300px;
+  border-radius: 250px;
+  border: 10px solid black;
+}
+
+h4 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 50px;
+  letter-spacing: 1.5px;
+}
+
+.section {
+  display: block;
+  width: 40%;
+  padding: 3% 5%;
+}
+
+.skills h6 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  border-bottom: 1px solid wheat;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.skill-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#happy-faces {
+  font-size: 1rem;
+  letter-spacing: 10px;
+}
+
+.bi {
+  transition: color 0.2s ease-out;
+}
+
+.bi:hover {
+  cursor: pointer;
+}
+
+.bi-facebook:hover {
+  color: #4267b2;
+}
+
+.bi-twitter:hover {
+  color: #1da1f2;
+}
+
+.bi-linkedin:hover {
+  color: #0a66c2;
+}
+
+.bi-instagram:hover {
+  color: #833ab4;
+}
+
+.icons-row {
+  font-size: 50px;
+  padding-top: 5%;
+  padding-left: 40%;
+}
